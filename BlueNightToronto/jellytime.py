@@ -13,5 +13,5 @@ class jellytime(commands.Cog):
         embed.add_field(name=embed_name,
                         value='Do you know what time is it.  Build Up      Beat Drops      Jelly Time!'
                         inline=False)
-        embed.set_image(url='')
+        embed.set_image(url='https://tenor.com/view/jelly-jelly-dance-epicdance-gif-19132879')
         await ctx.send(embed=embed)
