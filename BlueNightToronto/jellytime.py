@@ -11,7 +11,7 @@ class jellytime(commands.Cog):
         embed_name = 'Jelly Time'
         embed = discord.Embed(color=0x1e405d)
         embed.add_field(name=embed_name,
-                        value='Ummm Do you know what time is it.  Build Up      Beat Drops      Jelly Time!'
+                        value='Do you know what time is it.  Build Up      Beat Drops      Jelly Time!'
                         inline=False)
         embed.set_image(url='https://tenor.com/view/jelly-jelly-dance-epicdance-gif-19132879')
         await ctx.send(embed=embed)
